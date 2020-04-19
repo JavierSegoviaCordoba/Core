@@ -1,0 +1,11 @@
+*.iml
+.idea/
+
+bin/
+gen/
+out/
+.gradle/
+build/
+buildSrc/src/main/kotlin/Libs.kt
+
+local.properties
