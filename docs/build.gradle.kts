@@ -1,0 +1,7 @@
+plugins {
+    Orchid
+}
+
+repositories {
+    jcenter()
+}

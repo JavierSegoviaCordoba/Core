@@ -4,6 +4,7 @@ plugins {
     id("maven-publish")
     id("io.gitlab.arturbosch.detekt")
     MavenPublish
+    Dokka
 }
 
 repositories {

@@ -7,10 +7,10 @@ val kotlinVersion = "1.4-M1"
 val safeArgsVersion = "2.2.0-rc04"
 val dependencyUpdatesVersion = "0.28.0"
 val detektVersion = "1.7.4"
-val bintrayVersion = "1.8.5"
 
 repositories {
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
+    maven("https://plugins.gradle.org/m2")
     jcenter()
     mavenCentral()
     google()
@@ -25,7 +25,8 @@ dependencies {
     implementation("androidx.navigation:navigation-safe-args-gradle-plugin:$safeArgsVersion")
     implementation("io.gitlab.arturbosch.detekt:detekt-gradle-plugin:$detektVersion")
     implementation("com.github.ben-manes:gradle-versions-plugin:$dependencyUpdatesVersion")
-    implementation("com.jfrog.bintray.gradle:gradle-bintray-plugin:$bintrayVersion")
+    implementation("org.jetbrains.dokka:dokka-gradle-plugin:0.10.1")
+    implementation("com.eden.orchidPlugin:com.eden.orchidPlugin.gradle.plugin:0.20.0")
 }
 
 kotlinDslPluginOptions {

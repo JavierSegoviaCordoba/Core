@@ -1,0 +1,29 @@
+site:
+  about:
+    siteName: Core
+    siteDescription: This is a short description of this project.
+
+kotlindoc:
+  sourceDirs: [
+    '../../../../core/src/commonMain/kotlin',
+    '../../../../core/src/jvmMain/kotlin',
+    '../../../../core/src/androidMain/kotlin',
+  ]
+  pages:
+    menu:
+      - type: 'sourcedocPageLinks'
+        moduleType: 'kotlindoc'
+        itemTitleType: 'SIGNATURE'
+        includeItems: true
+
+theme:
+  menu:
+    - type: 'sourcedocPages'
+      moduleType: 'kotlindoc'
+      node: 'classes'
+      asSubmenu: true
+      submenuTitle: 'Classes'
+
+    - type: 'link'
+      title: 'Documentation'
+      url: 'http://localhost:8080/kotlindoc'

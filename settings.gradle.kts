@@ -33,3 +33,4 @@ rootProject.name = "Core"
 enableFeaturePreview("GRADLE_METADATA")
 
 include(":core")
+include(":docs")
