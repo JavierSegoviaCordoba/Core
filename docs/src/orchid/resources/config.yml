@@ -1,14 +1,69 @@
 site:
+  theme: 'Editorial'
+  baseUrl: 'http://username.github.io/project'
   about:
-    siteName: Core
+    siteName: Kotlin Project
     siteDescription: This is a short description of this project.
 
+theme:
+  primaryColor: '#DE9149'
+  legacySearch: false
+  social:
+    github: 'username/project'
+  metaComponents:
+    - type: 'orchidSearch'
+  extraCss:
+    - 'assets/css/code.css'
+  menu:
+    - type: 'separator'
+      title: 'Wiki'
+    - type: 'separator'
+      title: 'API Docs'
+
+    - type: 'sourcedocPages'
+      moduleType: 'kotlindoc'
+      moduleName: 'Common'
+      node: 'classes'
+      asSubmenu: true
+      submenuTitle: 'Common Classes'
+    - type: 'sourcedocPages'
+      moduleType: 'kotlindoc'
+      moduleName: 'Common'
+      node: 'packages'
+      asSubmenu: true
+      submenuTitle: 'Common Packages'
+
+    - type: 'sourcedocPages'
+      moduleType: 'kotlindoc'
+      moduleName: 'JVM'
+      node: 'classes'
+      asSubmenu: true
+      submenuTitle: 'JVM Classes'
+    - type: 'sourcedocPages'
+      moduleType: 'kotlindoc'
+      moduleName: 'JVM'
+      node: 'packages'
+      asSubmenu: true
+      submenuTitle: 'JVM Packages'
+
+    - type: 'sourcedocPages'
+      moduleType: 'kotlindoc'
+      moduleName: 'Android'
+      node: 'classes'
+      asSubmenu: true
+      submenuTitle: 'Android Classes'
+    - type: 'sourcedocPages'
+      moduleType: 'kotlindoc'
+      moduleName: 'Android'
+      node: 'packages'
+      asSubmenu: true
+      submenuTitle: 'Android Packages'
+
 kotlindoc:
-  sourceDirs: [
-    '../../../../core/src/commonMain/kotlin',
-    '../../../../core/src/jvmMain/kotlin',
-    '../../../../core/src/androidMain/kotlin',
-  ]
+  modules:
+    - { name: 'Common',  sourceDirs: ['./../../../../core/src/commonMain/kotlin']}
+    - { name: 'JVM',     sourceDirs: ['./../../../../core/src/commonMain/kotlin', './../../../../core/src/jvmMain/kotlin']}
+    - { name: 'Android', sourceDirs: ['./../../../../core/src/commonMain/kotlin', './../../../../core/src/androidMain/kotlin']}
   pages:
     menu:
       - type: 'sourcedocPageLinks'
@@ -16,14 +71,7 @@ kotlindoc:
         itemTitleType: 'SIGNATURE'
         includeItems: true
 
-theme:
-  menu:
-    - type: 'sourcedocPages'
-      moduleType: 'kotlindoc'
-      node: 'classes'
-      asSubmenu: true
-      submenuTitle: 'Classes'
-
-    - type: 'link'
-      title: 'Documentation'
-      url: 'http://localhost:8080/kotlindoc'
+allPages:
+  metaComponents:
+    - type: 'kotlinPlayground'
+      selector: "pre code[class='language-run-kotlin']"
