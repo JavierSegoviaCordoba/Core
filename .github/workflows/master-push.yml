@@ -1,0 +1,32 @@
+name: Master push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+#    name: Build, tests and reports
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build
+        run: gradle build --build-cache
+
+#      - name: Tests
+#        run: gradle test
+#
+#      - name: Generate tests report
+#        run: gradle jacocoTestReport
+#
+#      - uses: codecov/codecov-action@v1
+#        with:
+#          file: resource/build/reports/jacoco/report.xml
+
+      - name: Publish docs
+        env:
+          orchidGitHubToken: ${{ secrets.orchidGitHubToken }}
+        run: gradle docs:orchidDeploy
