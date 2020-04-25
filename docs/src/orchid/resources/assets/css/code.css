@@ -40,7 +40,7 @@
 span {
     font-weight: 500;
     color: #A9B7C6 !important;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", monospace;
 }
 
 span.cm-keyword {
@@ -80,6 +80,7 @@ span.cm-def {
 
 .CodeMirror-line {
     line-height: 1.6 !important;
+    margin-left: 8px !important;
 }
 
 .code-output {
@@ -147,7 +148,7 @@ pre {
     padding: 0;
     border-radius: 12px !important;
     background-color: #21252B;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", monospace;
 }
 
 code {
@@ -157,14 +158,19 @@ code {
     border: none;
     font-size: inherit !important;
     background-color: transparent;
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", monospace;
+}
+
+.CodeMirror-linenumber {
+    font-weight: bold;
+    font-family: "JetBrains Mono", monospace;
 }
 
 .icon {
     background: transparent !important;
 }
 
-#search-results > ul{
+#search-results > ul {
     padding: 1.1em !important;
 }
 

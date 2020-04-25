@@ -4,9 +4,9 @@ HEHEHEH
 
 ```run-kotlin
 fun main() {
-//sampleStart
     println("Running from Kotlin Playground!")
-//sampleEnd
 }
 ```
-{theme='darcula' lines='true'}
+
+
+{theme='darcula' lines='true' data-autocomplete='true' data-highlight-only}

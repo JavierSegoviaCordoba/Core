@@ -31,18 +31,24 @@ kotlin {
         commonTest {
             dependencies { commonTestDependencies.forEach(::implementation) }
         }
+
         val jvmMain by getting {
             dependencies { jvmMainDependencies.forEach(::implementation) }
         }
         val jvmTest by getting {
             dependencies { jvmTestDependencies.forEach(::implementation) }
         }
+
         val androidMain by getting {
             dependsOn(jvmMain)
             dependencies { androidMainDependencies.forEach(::implementation) }
         }
         val androidTest by getting {
             dependsOn(jvmTest)
+        }
+
+        all {
+            languageSettings.useExperimentalAnnotation("kotlin.RequiresOptIn")
         }
     }
 }

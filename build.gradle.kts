@@ -1,3 +1,5 @@
+import tasks.baseKotlinOptions
+
 plugins {
     id("io.gitlab.arturbosch.detekt")
 }
@@ -5,6 +7,7 @@ plugins {
 allprojects {
     tasks {
         withType<Delete> { delete(buildDir) }
+        baseKotlinOptions
     }
 }
 
