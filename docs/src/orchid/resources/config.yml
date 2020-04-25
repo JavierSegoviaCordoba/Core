@@ -1,6 +1,6 @@
 site:
   theme: 'Editorial'
-  baseUrl: 'https://javiersegoviacordoba.github.io/Core/'
+  baseUrl: 'https://core.javiersc.com'
   about:
     siteName: Kotlin Project
     siteDescription: This is a short description of this project.
