@@ -75,3 +75,10 @@ allPages:
   metaComponents:
     - type: 'kotlinPlayground'
       selector: "pre code[class='language-run-kotlin']"
+
+services:
+  publications:
+    stages:
+      - type: 'githubPages'
+        username: 'JavierSegoviaCordoba'
+        repo: 'JavierSegoviaCordoba/Core'

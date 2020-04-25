@@ -16,10 +16,11 @@ dependencies {
     orchidImplementation("io.github.javaeden.orchid:OrchidGithub:$orchidVersion")
     orchidImplementation("io.github.javaeden.orchid:OrchidCopper:$orchidVersion")
     orchidImplementation("io.github.javaeden.orchid:OrchidBsDoc:$orchidVersion")
-    orchidRuntime("io.github.javaeden.orchid:OrchidSyntaxHighlighter:$orchidVersion")
+    orchidRuntimeOnly("io.github.javaeden.orchid:OrchidSyntaxHighlighter:$orchidVersion")
 
 }
 
 orchid {
+    githubToken = System.getenv("orchidGitHubToken")
     args = listOf("--experimentalSourceDoc")
 }
