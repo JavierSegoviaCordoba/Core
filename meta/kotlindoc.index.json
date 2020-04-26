@@ -1,0 +1,280 @@
+{
+  "ownKey": "kotlindoc",
+  "childrenPages": {"kotlindoc": {
+    "ownKey": "kotlindoc",
+    "childrenPages": {
+      "jvm": {
+        "ownKey": "jvm",
+        "childrenPages": {"com": {
+          "ownKey": "com",
+          "childrenPages": {"javiersc": {
+            "ownKey": "javiersc",
+            "childrenPages": {"resources": {
+              "ownKey": "resources",
+              "childrenPages": {"core": {
+                "ownKey": "core",
+                "childrenPages": {"sample": {
+                  "ownKey": "sample",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/jvm",
+                      "baseUrl": "https://core.javiersc.com",
+                      "fileName": "com/javiersc/resources/core/sample",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://core.javiersc.com/kotlindoc/jvm/com/javiersc/resources/core/sample"
+                    },
+                    "description": "",
+                    "title": "com.javiersc.resources.core.sample",
+                    "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                  }]
+                }}
+              }}
+            }}
+          }}
+        }},
+        "ownPages": [{
+          "reference": {
+            "path": "kotlindoc",
+            "baseUrl": "https://core.javiersc.com",
+            "fileName": "jvm",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://core.javiersc.com/kotlindoc/jvm"
+          },
+          "description": "",
+          "title": "JVM",
+          "content": ""
+        }]
+      },
+      "common": {
+        "ownKey": "common",
+        "childrenPages": {"com": {
+          "ownKey": "com",
+          "childrenPages": {"javiersc": {
+            "ownKey": "javiersc",
+            "childrenPages": {"resources": {
+              "ownKey": "resources",
+              "childrenPages": {"core": {
+                "ownKey": "core",
+                "childrenPages": {"sample": {
+                  "ownKey": "sample",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc/common",
+                      "baseUrl": "https://core.javiersc.com",
+                      "fileName": "com/javiersc/resources/core/sample",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://core.javiersc.com/kotlindoc/common/com/javiersc/resources/core/sample"
+                    },
+                    "description": "",
+                    "title": "com.javiersc.resources.core.sample",
+                    "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                  }]
+                }}
+              }}
+            }}
+          }}
+        }},
+        "ownPages": [{
+          "reference": {
+            "path": "kotlindoc",
+            "baseUrl": "https://core.javiersc.com",
+            "fileName": "common",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://core.javiersc.com/kotlindoc/common"
+          },
+          "description": "",
+          "title": "Common",
+          "content": ""
+        }]
+      },
+      "android": {
+        "ownKey": "android",
+        "childrenPages": {"com": {
+          "ownKey": "com",
+          "childrenPages": {"javiersc": {
+            "ownKey": "javiersc",
+            "childrenPages": {"resources": {
+              "ownKey": "resources",
+              "childrenPages": {"core": {
+                "ownKey": "core",
+                "childrenPages": {
+                  "extensions": {
+                    "ownKey": "extensions",
+                    "childrenPages": {
+                      "fragment": {
+                        "ownKey": "fragment",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc/android",
+                            "baseUrl": "https://core.javiersc.com",
+                            "fileName": "com/javiersc/resources/core/extensions/fragment",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/fragment"
+                          },
+                          "description": "",
+                          "title": "com.javiersc.resources.core.extensions.fragment",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      },
+                      "viewbinding": {
+                        "ownKey": "viewbinding",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc/android",
+                            "baseUrl": "https://core.javiersc.com",
+                            "fileName": "com/javiersc/resources/core/extensions/viewbinding",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/viewbinding"
+                          },
+                          "description": "",
+                          "title": "com.javiersc.resources.core.extensions.viewBinding",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      },
+                      "viewmodel": {
+                        "ownKey": "viewmodel",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc/android",
+                            "baseUrl": "https://core.javiersc.com",
+                            "fileName": "com/javiersc/resources/core/extensions/viewmodel",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/viewmodel"
+                          },
+                          "description": "",
+                          "title": "com.javiersc.resources.core.extensions.viewModel",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      },
+                      "activity": {
+                        "ownKey": "activity",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc/android",
+                            "baseUrl": "https://core.javiersc.com",
+                            "fileName": "com/javiersc/resources/core/extensions/activity",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/activity"
+                          },
+                          "description": "",
+                          "title": "com.javiersc.resources.core.extensions.activity",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      },
+                      "context": {
+                        "ownKey": "context",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc/android",
+                            "baseUrl": "https://core.javiersc.com",
+                            "fileName": "com/javiersc/resources/core/extensions/context",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/context"
+                          },
+                          "description": "",
+                          "title": "com.javiersc.resources.core.extensions.context",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      }
+                    }
+                  },
+                  "delegates": {
+                    "ownKey": "delegates",
+                    "childrenPages": {"viewbinding": {
+                      "ownKey": "viewbinding",
+                      "childrenPages": {
+                        "fragmentviewbindingdelegate": {
+                          "ownKey": "fragmentviewbindingdelegate",
+                          "ownPages": [{
+                            "reference": {
+                              "path": "kotlindoc/android",
+                              "baseUrl": "https://core.javiersc.com",
+                              "fileName": "com/javiersc/resources/core/delegates/viewbinding/fragmentviewbindingdelegate",
+                              "extension": "html",
+                              "usePrettyUrl": true,
+                              "link": "https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/delegates/viewbinding/fragmentviewbindingdelegate"
+                            },
+                            "description": "",
+                            "title": "FragmentViewBindingDelegate",
+                            "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                          }]
+                        },
+                        "activityviewbindingdelegate": {
+                          "ownKey": "activityviewbindingdelegate",
+                          "ownPages": [{
+                            "reference": {
+                              "path": "kotlindoc/android",
+                              "baseUrl": "https://core.javiersc.com",
+                              "fileName": "com/javiersc/resources/core/delegates/viewbinding/activityviewbindingdelegate",
+                              "extension": "html",
+                              "usePrettyUrl": true,
+                              "link": "https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/delegates/viewbinding/activityviewbindingdelegate"
+                            },
+                            "description": "",
+                            "title": "ActivityViewBindingDelegate",
+                            "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                          }]
+                        }
+                      },
+                      "ownPages": [{
+                        "reference": {
+                          "path": "kotlindoc/android",
+                          "baseUrl": "https://core.javiersc.com",
+                          "fileName": "com/javiersc/resources/core/delegates/viewbinding",
+                          "extension": "html",
+                          "usePrettyUrl": true,
+                          "link": "https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/delegates/viewbinding"
+                        },
+                        "description": "",
+                        "title": "com.javiersc.resources.core.delegates.viewBinding",
+                        "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                      }]
+                    }}
+                  },
+                  "sample": {
+                    "ownKey": "sample",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc/android",
+                        "baseUrl": "https://core.javiersc.com",
+                        "fileName": "com/javiersc/resources/core/sample",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/sample"
+                      },
+                      "description": "",
+                      "title": "com.javiersc.resources.core.sample",
+                      "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                    }]
+                  }
+                }
+              }}
+            }}
+          }}
+        }},
+        "ownPages": [{
+          "reference": {
+            "path": "kotlindoc",
+            "baseUrl": "https://core.javiersc.com",
+            "fileName": "android",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://core.javiersc.com/kotlindoc/android"
+          },
+          "description": "",
+          "title": "Android",
+          "content": ""
+        }]
+      }
+    }
+  }}
+}

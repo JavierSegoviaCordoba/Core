@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/common</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/common/com/javiersc/resources/core/sample</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/jvm</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/jvm/com/javiersc/resources/core/sample</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/viewmodel</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/context</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/activity</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/fragment</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/extensions/viewbinding</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/sample</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/delegates/viewbinding</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/delegates/viewbinding/fragmentviewbindingdelegate</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://core.javiersc.com/kotlindoc/android/com/javiersc/resources/core/delegates/viewbinding/activityviewbindingdelegate</loc>
+        <lastmod>2020-04-26</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    
+</urlset>

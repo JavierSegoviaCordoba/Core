@@ -1,0 +1,31 @@
+{
+  "ownKey": "home",
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://core.javiersc.com",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://core.javiersc.com"
+      },
+      "description": "",
+      "title": "Home",
+      "content": "<h1 id=\"core\"><a href=\"#core\" id=\"core\" class=\"anchor\"><\/a>Core<\/h1>\n<p>HEHEHEH<\/p>\n<pre theme=\"darcula\" lines=\"true\" data-autocomplete=\"true\" data-highlight-only=\"\"><code class=\"language-run-kotlin\" theme=\"darcula\" lines=\"true\" data-autocomplete=\"true\" data-highlight-only=\"\">fun main() {\n    println(&quot;Running from Kotlin Playground!&quot;)\n}\n<\/code><\/pre>\n"
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://core.javiersc.com",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "https://core.javiersc.com/404.html"
+      },
+      "description": "",
+      "title": "Not Found",
+      "content": ""
+    }
+  ]
+}
