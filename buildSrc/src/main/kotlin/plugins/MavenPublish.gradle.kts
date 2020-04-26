@@ -28,7 +28,7 @@ publishing {
             }
         }
         repositories {
-            maven("https://api.bintray.com/maven/javiersegoviacordoba/Resources/Core/;publish=1;override=1") {
+            maven("https://api.bintray.com/maven/javiersegoviacordoba/Resources/Core/;publish=1;override=0") {
                 credentials {
                     username = System.getenv("bintrayUser")
                     password = System.getenv("bintrayKey")
