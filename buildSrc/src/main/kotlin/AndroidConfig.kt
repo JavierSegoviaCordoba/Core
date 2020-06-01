@@ -16,5 +16,6 @@ fun BaseExtension.defaultConfig() {
         }
     }
 
-    viewBinding.isEnabled = true
+    @Suppress("UnstableApiUsage")
+    buildFeatures.viewBinding = true
 }

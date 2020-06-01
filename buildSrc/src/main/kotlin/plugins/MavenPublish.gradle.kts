@@ -1,12 +1,21 @@
 plugins {
     id("maven-publish")
+    signing
 }
+
+signing {
+    useGpgCmd()
+    sign(publishing.publications)
+}
+
+val isCoreReleaseEnv: Boolean? = System.getenv("isCoreReleaseEnv")?.toBoolean()
+val isCoreRelease: String by project
 
 publishing {
     publications.withType<MavenPublication> {
         pom {
             name.set("Core")
-            description.set("Core multiplatform utilities")
+            description.set("Core multiplatform")
             url.set("http://github.com/JavierSegoviaCordoba/Core")
             licenses {
                 license {
@@ -28,10 +37,15 @@ publishing {
             }
         }
         repositories {
-            maven("https://api.bintray.com/maven/javiersegoviacordoba/Resources/Core/;publish=1;override=0") {
+            val releasesRepo = "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+            val snapshotsRepo = "https://oss.sonatype.org/content/repositories/snapshots"
+
+            val isRelease = isCoreReleaseEnv ?: isCoreRelease.toBoolean()
+
+            maven(if (isRelease) releasesRepo else snapshotsRepo) {
                 credentials {
-                    username = System.getenv("bintrayUser")
-                    password = System.getenv("bintrayKey")
+                    username = System.getenv("ossUser")
+                    password = System.getenv("ossToken")
                 }
             }
         }

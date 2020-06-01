@@ -1,25 +1,48 @@
 plugins {
-    kotlin("multiplatform")
-    id("com.android.library")
-    id("io.gitlab.arturbosch.detekt")
+    KotlinMultiplatform
+//    JaCoCo
+    Detekt
     MavenPublish
-    Dokka
+    Nexus
+    id("org.jetbrains.dokka") version "0.10.1"
 }
 
 repositories {
+    google()
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
+    maven("https://oss.sonatype.org/content/repositories/snapshots")
     mavenCentral()
     jcenter()
-    google()
 }
 
+val coreVersion: String by project
+val isCoreReleaseEnv: Boolean? = System.getenv("isCoreReleaseEnv")?.toBoolean()
+val isCoreRelease: String by project
+
+val finalVersion = coreVersion.generateVersion(isCoreReleaseEnv ?: isCoreRelease.toBoolean())
+
 group = "com.javiersc.resources"
-version = "0.0.1"
+version = finalVersion
+
+tasks.dokka {
+    outputFormat = "html"
+    outputDirectory = "$buildDir/javadoc"
+}
+
+val dokkaJar by tasks.creating(Jar::class) {
+    archiveClassifier.set("javadoc")
+    from(tasks.dokka)
+    dependsOn(tasks.dokka)
+}
 
 android.defaultConfig()
 
 kotlin {
-    jvm()
+    jvm {
+        mavenPublication {
+            artifact(dokkaJar)
+        }
+    }
     android {
         publishLibraryVariants("release", "debug")
     }
