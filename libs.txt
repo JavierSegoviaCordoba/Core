@@ -5,6 +5,7 @@ org.jetbrains.kotlin:kotlin-test-annotations-common
 org.jetbrains.kotlin:kotlin-stdlib-jdk8
 org.jetbrains.kotlin:kotlin-test
 org.jetbrains.kotlin:kotlin-test-junit
+org.jetbrains.kotlin:kotlin-reflect
 androidx.appcompat:appcompat:1.1.0
 androidx.lifecycle:lifecycle-common-java8:2.2.0
 androidx.lifecycle:lifecycle-runtime:2.2.0
@@ -16,3 +17,8 @@ io.kotest:kotest-runner-junit5-jvm:4.0.5
 io.kotest:kotest-assertions-core-jvm:4.0.5
 org.junit.jupiter:junit-jupiter-api:5.6.1
 org.junit.jupiter:junit-jupiter-engine:5.6.1
+androidx.navigation:navigation-runtime:2.3.0-beta01
+androidx.navigation:navigation-fragment-ktx:2.3.0-beta01
+androidx.navigation:navigation-ui-ktx:2.3.0-beta01
+androidx.navigation:navigation-dynamic-features-fragment:2.3.0-beta01
+androidx.recyclerview:recyclerview:1.1.0
