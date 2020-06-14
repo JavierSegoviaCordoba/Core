@@ -7,5 +7,5 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
 fun Fragment.launch(block: suspend CoroutineScope.() -> Unit): Job {
-    return lifecycleScope.launch(block = block)
+    return viewLifecycleOwner.lifecycleScope.launch(block = block)
 }
