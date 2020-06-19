@@ -22,3 +22,4 @@ androidx.navigation:navigation-fragment-ktx:2.3.0-beta01
 androidx.navigation:navigation-ui-ktx:2.3.0-beta01
 androidx.navigation:navigation-dynamic-features-fragment:2.3.0-beta01
 androidx.recyclerview:recyclerview:1.1.0
+com.javiersc.resources:network-response:0.4.0
