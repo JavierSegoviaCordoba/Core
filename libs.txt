@@ -12,7 +12,7 @@ androidx.lifecycle:lifecycle-runtime:2.2.0
 androidx.lifecycle:lifecycle-livedata-ktx:2.2.0
 androidx.activity:activity-ktx:1.1.0
 androidx.fragment:fragment-ktx:1.2.4
-com.javiersc.resources:resource:2.0.0
+com.javiersc.resources:resource:3.0.0.20200620125402-SNAPSHOT
 io.kotest:kotest-runner-junit5-jvm:4.0.5
 io.kotest:kotest-assertions-core-jvm:4.0.5
 org.junit.jupiter:junit-jupiter-api:5.6.1
@@ -22,4 +22,5 @@ androidx.navigation:navigation-fragment-ktx:2.3.0-beta01
 androidx.navigation:navigation-ui-ktx:2.3.0-beta01
 androidx.navigation:navigation-dynamic-features-fragment:2.3.0-beta01
 androidx.recyclerview:recyclerview:1.1.0
-com.javiersc.resources:network-response:0.4.0
+com.javiersc.resources:network-response:0.4.1.20200620151345-SNAPSHOT
+com.squareup.okhttp3:mockwebserver:4.7.2

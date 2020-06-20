@@ -11,11 +11,12 @@ val nexus = "0.21.2"
 val dokka = "0.10.1"
 
 repositories {
-    maven("https://dl.bintray.com/kotlin/kotlin-eap")
-    maven("https://plugins.gradle.org/m2")
     jcenter()
     mavenCentral()
     google()
+    maven("https://oss.sonatype.org/content/repositories/snapshots/")
+    maven("https://dl.bintray.com/kotlin/kotlin-eap")
+    gradlePluginPortal()
 }
 
 dependencies {
@@ -28,7 +29,7 @@ dependencies {
     implementation("io.gitlab.arturbosch.detekt:detekt-gradle-plugin:$detekt")
     implementation("com.github.ben-manes:gradle-versions-plugin:$dependencyUpdates")
     implementation("io.codearte.gradle.nexus:gradle-nexus-staging-plugin:$nexus")
-//    implementation("org.jetbrains.dokka:dokka-maven-plugin:$dokka")
+    implementation("org.jetbrains.dokka:dokka-gradle-plugin:$dokka")
 }
 
 kotlinDslPluginOptions {

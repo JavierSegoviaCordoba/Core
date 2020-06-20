@@ -4,7 +4,7 @@ plugins {
     Detekt
     MavenPublish
     Nexus
-    id("org.jetbrains.dokka") version "0.10.1"
+    Dokka
 }
 
 repositories {
@@ -23,11 +23,6 @@ val finalVersion = coreVersion.generateVersion(isCoreReleaseEnv ?: isCoreRelease
 
 group = "com.javiersc.resources"
 version = finalVersion
-
-tasks.dokka {
-    outputFormat = "html"
-    outputDirectory = "$buildDir/javadoc"
-}
 
 val dokkaJar by tasks.creating(Jar::class) {
     archiveClassifier.set("javadoc")
