@@ -1,4 +1,4 @@
-package com.javiersc.resources.core.extensions
+package com.javiersc.resources.core.extensions.serialization
 
 import com.javiersc.resources.core.extensions.resources.readResource
 import kotlinx.serialization.DeserializationStrategy
